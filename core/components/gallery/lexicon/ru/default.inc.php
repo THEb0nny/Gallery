@@ -26,6 +26,7 @@
  * @subpackage lexicon
  */
 $_lang['gallery'] = 'Gallery';
+$_lang['gallery.year'] = 'Год';
 $_lang['gallery.active'] = 'Активен';
 $_lang['gallery.active_desc'] = 'Если не выбрано,то этот альбом не будет доступен для просмотра.';
 $_lang['gallery.album'] = 'Альбом';
@@ -41,10 +42,12 @@ $_lang['gallery.album_update'] = 'Редактировать альбом';
 $_lang['gallery.albums'] = 'Альбомы';
 $_lang['gallery.back'] = 'Назад';
 $_lang['gallery.batch_upload'] = 'Пакетная загрузка';
-$_lang['gallery.batch_upload_intro'] = '<p>Укажите каталог для поиска элементов. Вы можете использовать {base_path}, {core_path}, или {assets_path} как подстановщики.</p>';
+$_lang['gallery.batch_upload_intro'] = 'Укажите каталог для поиска элементов. Вы можете использовать {base_path}, {core_path}, или {assets_path} как подстановщики.';
 $_lang['gallery.batch_upload_tags'] = 'Метки которые будут назначенны всем элементам при пакетной загрузке, в виде списка разделённого запятыми.';
 $_lang['gallery.bytes'] = 'bytes';
 $_lang['gallery.comma_separated_list'] = 'Список меток разделённый запятыми.';
+$_lang['gallery.clearsuccessful'] = 'Очистить успешные загрузки';
+$_lang['gallery.clearfailure'] = 'Очистить неудачные загрузки';
 $_lang['gallery.cover_filename'] = 'Обложка альбома';
 $_lang['gallery.directory'] = 'Каталог';
 $_lang['gallery.directory_desc'] = 'Каталог для поиска элементов.';
@@ -57,6 +60,7 @@ $_lang['gallery.height'] = 'Высота';
 $_lang['gallery.images_selected'] = '[[+count]] выбранно.';
 $_lang['gallery.inactive'] = 'Неактивен';
 $_lang['gallery.intro_msg'] = 'Здесь вы можете управлять альбомами. Щёлкните правой кнопкой мыши на альбом для просмотра дополнительных настроек.';
+$_lang['gallery.item_active_desc'] = 'Неактивные элементы не будут публично отображаться в ваших альбомах.';
 $_lang['gallery.item_delete'] = 'Удалить елемент';
 $_lang['gallery.item_delete_confirm'] = 'Вы уверены, что хотите удалить этот элемент? Это необратимо.';
 $_lang['gallery.item_delete_multiple'] = 'Удалить выбранные элементы';
@@ -71,8 +75,11 @@ $_lang['gallery.item_remove'] = 'Удалить элемент';
 $_lang['gallery.item_remove_album'] = 'Удалить элемент из альбома';
 $_lang['gallery.item_update'] = 'Редактировать элемент';
 $_lang['gallery.item_upload'] = 'Загрузить элемент';
+$_lang['gallery.item_upload_file_desc'] = 'Файл изображения, которое вы хотите загрузить.';
+$_lang['gallery.item_url_desc'] = 'URL-адрес, по которому пользователь перейдет при нажатии на этот элемент галереи.';
 $_lang['gallery.items'] = 'элементы';
 $_lang['gallery.menu_desc'] = 'Управление альбомами.';
+$_lang['gallery.multi_item_upload'] = 'Мульти-загрузка';
 $_lang['gallery.parent'] = 'Родитель';
 $_lang['gallery.prominent'] = 'Видимый';
 $_lang['gallery.prominent_desc'] = 'Создание невидимого альбома может быть использовано для сокрытия альбома из списка альбомов, для приватных альбомов или для создания альбомов не включённых в список.';
@@ -86,6 +93,9 @@ $_lang['gallery.set_as_cover'] = 'Сделать обложкой альбома
 $_lang['gallery.current_cover'] = 'Текущая обложка альбома';
 $_lang['gallery.cover_upload'] = 'Загрузка обложки';
 $_lang['gallery.delete_cover'] = 'Удалить обложку';
+$_lang['gallery.zip_file'] = 'Zip-файл';
+$_lang['gallery.zip_upload'] = 'Загрузить архив';
+$_lang['gallery.zip_upload_intro'] = 'Укажите zip-файл для загрузки изображений. Галерея распакует файл и поместит изображения из него в этот альбом.';
 
 $_lang['area_backend'] = 'Настройки бэкенда Gallery';
 
